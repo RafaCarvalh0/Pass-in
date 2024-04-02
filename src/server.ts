@@ -11,10 +11,6 @@ app.get('/', () => {
     return 'Hello World'
 })
 
-app.get('/teste', () => {
-    return 'Página teste'
-})
-
 app.post('/events', async (request, reply) => {
     const createEventSchema = z.object({
         title: z.string().min(4),
