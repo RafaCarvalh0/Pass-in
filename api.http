@@ -2,7 +2,25 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-    "title": "Evento Um",
-    "details": "primeiro teste de evento",
-    "maximumAttendees": 100
+    "title": "Só 1",
+    "details": null,
+    "maximumAttendees": 1
 }
+
+###
+
+POST http://localhost:3333/events/1b39294a-76fc-442b-9f5e-ab8c22ed02c8/attendees
+Content-Type: application/json
+
+{
+    "name": "Rafael",
+    "email": "rafacarvalho601@gmail.com"
+}
+
+###
+
+GET http://localhost:3333/events/1b39294a-76fc-442b-9f5e-ab8c22ed02c8
+
+###
+
+GET http://localhost:3333/attendees/4/badge
