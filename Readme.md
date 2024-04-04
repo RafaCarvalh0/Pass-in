@@ -1,4 +1,4 @@
-# Pass.in ( Projeto em desenvolvimento )
+# Pass.in ( Projeto Finalizado )
 
 O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**
 
