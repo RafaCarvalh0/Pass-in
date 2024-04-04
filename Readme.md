@@ -1,4 +1,4 @@
-# Pass.in ( Projeto Finalizado )
+# Pass.in ( Projeto Finalizado - Evento Rocketseat - Trilha Node.js )
 
 O pass.in é uma aplicação de **gestão de participantes em eventos presenciais**
 
